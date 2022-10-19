@@ -52,10 +52,6 @@ body {
 .qoute {
   color: var(--qc, hsl(0, 0%, 70%));
 }
-/* 
-1. "Verified Graduate" has the same color as the person's name with 50% opacity
-2. Review paragraphs inside the quotations have the same color as well, but are at 70% opacity
-*/
 
 .card-1 {
   position: relative;
@@ -77,7 +73,7 @@ body {
 .card-1::after {
   content: url(../images/bg-pattern-quotation.svg);
   position: absolute;
-  top: 1.5rem;
+  top: 0;
   right: 1.5rem;
   z-index: -1;
 }
@@ -103,5 +99,8 @@ body {
   }
   .card-5 {
     grid-area: 1/4/3/5;
+  }
+  .card-1::after {
+    right: 7rem;
   }
 }
