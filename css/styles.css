@@ -10,7 +10,7 @@
 }
 
 body {
-  font-size: 13px;
+  font-size: 0.8125rem;
   font-family: "Barlow Semi Condensed", sans-serif;
   background-color: var(--LightGrayishBlue);
   padding: 4.5rem 1.5rem;
@@ -47,7 +47,7 @@ body {
 }
 .highlighted-qoute {
   color: var(--hqc, --LightGrayishBlue);
-  font-size: 22px;
+  font-size: 1.375rem;
 }
 .qoute {
   color: var(--qc, hsl(0, 0%, 70%));
